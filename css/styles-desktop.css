@@ -1,0 +1,32 @@
+main {
+    max-width: 90rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-image {
+    width: 45%;
+    height: 39rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0;
+}
+
+.info {
+    width: 55%;
+    padding: 6rem;
+}
+
+.info--title {
+    font-size: 3rem;
+}
+
+
+.info--stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info--title, .info--paragraph {
+    text-align: start;
+}
